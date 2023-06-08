@@ -9,10 +9,59 @@ font-family: 'Oswald', sans-serif; */
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 60px;
+    background: rgba(25, 28, 31, 0.8);
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo{}
+.logo a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1px;
+    padding-left: 15px;
+}
+.menu{}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu-item{}
+.menu-item a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#menu-bar{
+    color: #fff;
+    font-size: 20px;
+    display: none;
 }
