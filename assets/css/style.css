@@ -39,7 +39,6 @@ header{
     align-items: center;
     height: 60px;
 }
-.logo{}
 .logo a{
     color: #ecf0f1;
     font-size: 2rem;
@@ -50,12 +49,12 @@ header{
 .logo a:hover{
     color: #84817a;
 }
-.menu{}
+
 .menu ul{
     display: flex;
     align-items: center;
 }
-.menu-item{}
+
 .menu-item a{
     display: flex;
     align-items: center;
@@ -258,7 +257,7 @@ footer{
     padding: 30px 0;
     text-align: center;
 }
-.footer-content{}
+
 .footer-content h3{
     font-size: 36px;
     font-weight: 800;
@@ -406,7 +405,7 @@ footer{
     align-items: center;
     gap: 30px;
 }
-.porfolio-menu ul li{}
+
 .porfolio-menu ul li a{
     cursor: pointer;
     padding: 10px 15px;
