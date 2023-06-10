@@ -57,6 +57,9 @@ old device 576px
     .service-box{
         width: 47%;
     }
+    .portfolio-img img{
+        width: 48%;
+    }
 }
 
 /* Responsive design for tablet */
@@ -74,6 +77,26 @@ old device 576px
         width: 100%;
         height: auto;
     }
+    .contact-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-address{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form{
+        padding: 20px 30px;
+    }
+    .form button{
+        text-align: center;
+    }
+    .portfolio-img img{
+        width: 90%;
+        height: 400px;
+    }
 }
 
 /* Responsive design for phone */
@@ -84,5 +107,9 @@ old device 576px
     }
     .service-box{
         width: 100%;
+    }
+    .portfolio-img img{
+        width: 95%;
+        height: 350px;
     }
 }
